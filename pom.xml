@@ -48,4 +48,27 @@
     <version>5.1.1</version>
 </dependency>
   </dependencies>
+  
+  <!--Maven Profiling for BatchFile -->
+  <profiles>
+  <profile>
+  <id>BF</id>
+  <build>
+  <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>BatchFile.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+</plugins>
+  </build>
+  </profile>
+  </profiles>
+  
+  
 </project>
