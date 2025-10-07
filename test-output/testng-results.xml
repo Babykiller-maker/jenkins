@@ -8,15 +8,18 @@
       <![CDATA[Hii jenkins]]>
     </line>
     <line>
+      <![CDATA[Bye jenkins]]>
+    </line>
+    <line>
       <![CDATA[Hii Github]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-07T11:40:16 IST" name="Suite" finished-at="2025-10-07T11:40:16 IST" duration-ms="60">
+  <suite started-at="2025-10-07T14:36:58 IST" name="Suite" finished-at="2025-10-07T14:36:58 IST" duration-ms="72">
     <groups>
     </groups>
-    <test started-at="2025-10-07T11:40:16 IST" name="Test" finished-at="2025-10-07T11:40:16 IST" duration-ms="60">
+    <test started-at="2025-10-07T14:36:58 IST" name="Test" finished-at="2025-10-07T14:36:58 IST" duration-ms="72">
       <class name="github.GithubTest">
-        <test-method signature="praticeGithubTest()[pri:0, instance:github.GithubTest@42e99e4a]" started-at="2025-10-07T11:40:16 IST" name="praticeGithubTest" finished-at="2025-10-07T11:40:16 IST" duration-ms="1" status="PASS">
+        <test-method signature="praticeGithubTest()[pri:0, instance:github.GithubTest@42e99e4a]" started-at="2025-10-07T14:36:58 IST" name="praticeGithubTest" finished-at="2025-10-07T14:36:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hii Github]]>
@@ -25,7 +28,7 @@
         </test-method> <!-- praticeGithubTest -->
       </class> <!-- github.GithubTest -->
       <class name="maven.MavenTest">
-        <test-method signature="practiceMavenTest()[pri:0, instance:maven.MavenTest@dbf57b3]" started-at="2025-10-07T11:40:16 IST" name="practiceMavenTest" finished-at="2025-10-07T11:40:16 IST" duration-ms="10" status="PASS">
+        <test-method signature="practiceMavenTest()[pri:0, instance:maven.MavenTest@dbf57b3]" started-at="2025-10-07T14:36:58 IST" name="practiceMavenTest" finished-at="2025-10-07T14:36:58 IST" duration-ms="14" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hii Maven]]>
@@ -34,10 +37,13 @@
         </test-method> <!-- practiceMavenTest -->
       </class> <!-- maven.MavenTest -->
       <class name="jenkins.JenkinsTest">
-        <test-method signature="praticeJenkinTest()[pri:0, instance:jenkins.JenkinsTest@4d9e68d0]" started-at="2025-10-07T11:40:16 IST" name="praticeJenkinTest" finished-at="2025-10-07T11:40:16 IST" duration-ms="2" status="PASS">
+        <test-method signature="praticeJenkinTest()[pri:0, instance:jenkins.JenkinsTest@4d9e68d0]" started-at="2025-10-07T14:36:58 IST" name="praticeJenkinTest" finished-at="2025-10-07T14:36:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hii jenkins]]>
+            </line>
+            <line>
+              <![CDATA[Bye jenkins]]>
             </line>
           </reporter-output>
         </test-method> <!-- praticeJenkinTest -->
